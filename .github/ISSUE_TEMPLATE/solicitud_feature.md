@@ -1,22 +1,24 @@
 ---
 name: Solicitud feature
-about: Sugiera una idea mejorar para el modulo.
+about: Sugiera una idea para mejorar con nuevos features para el modulo.
 
 ---
+## Tu Solicitud esta relacionado con una nueva funcionalidad de Azure?
 
-## Is your request related to a new offering from AWS?
-Is this functionality available in the [AWS provider for Terraform](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)? See [CHANGELOG.md](https://github.com/hashicorp/terraform-provider-aws/blob/main/CHANGELOG.md), too.
-  - No 🛑: please wait to file a request until the functionality is avaialble in the AWS provider
-  - Yes ✅: please list the AWS provider version which introduced this functionality
+Esta funcionalidad esta disponible en [Azure provider de Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)?
 
-## Is your request related to a problem? Please describe.
-<!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when ... -->
+  - No 🛑: Por favor espere a que este disponible en el provider del Azure
 
-## Describe the solution you'd like.
-<!-- A clear and concise description of what you want to happen -->
+  - Yes ✅: Por favor mencione la version del provider del AzureRM donde esta disponible esa funcionalidad.
 
-## Describe alternatives you've considered.
-<!-- A clear and concise description of any alternative solutions or functionality you've considered -->
 
-## Additional context
-<!-- Add any other context or screenshots about the feature request here -->
+## Esta relacionado a un problema del modulo?, por favor describa al respecto.
+<!-- Una descripción clara y concisa de cuál es el problema. Por ejemplo, me confunde las dependencias ... ... -->
+
+
+## Describa la solucion que desea.
+<!-- Una descripción clara y concisa de lo que quieres que suceda. -->
+
+
+## Describa alguna alternativa que haya conciderado.
+<!-- Una descripción clara y concisa de cualquier solución alternativa o funcionalidad que haya considerado. -->
