@@ -1,5 +1,5 @@
 ---
-name: Reporte de Bug
+name: Reporte Bug
 about: Crea un Informe de Bug que nos ayude corregir y mejorar.
 ---
 

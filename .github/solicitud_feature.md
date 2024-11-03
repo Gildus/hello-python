@@ -1,5 +1,5 @@
 ---
-name: Solicitud de features
+name: Solicitud feature
 about: Sugiera una idea mejorar para el modulo.
 
 ---
