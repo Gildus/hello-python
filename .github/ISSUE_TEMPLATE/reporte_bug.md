@@ -1,55 +1,47 @@
 ---
 name: Reporte Bug
-about: Crea un Informe de Bug que nos ayude corregir y mejorar.
+about: Crea un Informe de Bug que nos ayude corregir y mejorar el modulo.
 ---
 
-## Description
+## Descripción
 
-Please provide a clear and concise description of the issue you are encountering, and a reproduction of your configuration (see the `examples/*` directory for references that you can copy+paste and tailor to match your configs if you are unable to copy your exact configuration). The reproduction MUST be executable by running `terraform init && terraform apply` without any further changes.
+Por favor describe clara y concisa acerca Issue que encuentras, puedes pegar algunas imagenes que ayude a ver los resultados y los errores, no detalles o codigo sino la logica o contexto del Issue.
 
-If your request is for a new feature, please use the `Feature request` template.
+- [ ] ✋ Haz buscado en los issues cerrados si esta tu caso? 
 
-- [ ] ✋ I have searched the open/closed issues and my issue is not listed.
-
-## ⚠️ Note
-
-Before you submit an issue, please perform the following first:
-
-1. Remove the local `.terraform` directory (! ONLY if state is stored remotely, which hopefully you are following that best practice!): `rm -rf .terraform/`
-2. Re-initialize the project root to pull down modules: `terraform init`
-3. Re-attempt your terraform plan or apply and check if the issue still persists
 
 ## Versions
 
-- Module version [Required]:
+- Version del Modulo [Required]:  <!-- Esta en los parametros del mismo modulo -->
+- Version del Terraform:  <!-- Esta en la parte superior de tu Run -->
+- Version de los providers: <!-- En tu codigo provider.tf o providers.tf dentro del bloque terraform el sub-bloque required_providers  -->
 
-- Terraform version:
-<!-- Execute terraform -version -->
-- Provider version(s):
-<!-- Execute: terraform providers -version -->
 
-## Reproduction Code [Required]
+## Codigo del modulo [Required]
 
-<!-- REQUIRED -->
+<!-- REQUIRED: copea el codigo tal cual con los parametro que uses. Recuerda  -->
 
-Steps to reproduce the behavior:
+```terraform
+## pega aqui tu codigo
 
-<!-- Are you using workspaces? -->
-<!-- Have you cleared the local cache (see Notice section above)? -->
-<!-- List steps in order that led up to the issue you encountered -->
+```
 
-## Expected behavior
+Para para reproducir el Bug:
 
-<!-- A clear and concise description of what you expected to happen -->
+<!-- En tu Workspaces existen falsos positivos? o Warning?  -->
+<!-- En tu Plan sale todo correcto? -->
+<!-- Tus validaciones de Sentinel son todas correctas? sino menciona que se muestra -->
+<!-- Despues del Plan cuanto tiempo paso para ejecutar el Apply? -->
 
-## Actual behavior
+## Recursos aprovisionados esperados
 
-<!-- A clear and concise description of what actually happened -->
+<!-- En caso de que se aprovisione como quedo, puedes poner imagenes -->
 
-### Terminal Output Screenshot(s)
+## Recursos actualmente aprovisionados
 
-<!-- Optional but helpful -->
+<!-- Si se aprovisiono que es lo que estaria mal? o que le faltaria?, puedes poner capturas -->
 
-## Additional context
+### Captura de pantalla de las salidas
 
-<!-- Add any other context about the problem here -->
+<!-- Es Opcional pero Util para exactamente el error -->
+
